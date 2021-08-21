@@ -1,0 +1,28 @@
+.home{
+    position: relative;
+    height: 100vh;
+    width: calc(100vw - 5rem);
+    margin-left: 5rem;
+    overflow: hidden;
+}
+
+.intro{
+    position:absolute;
+    font-size: 3.5rem;
+    text-align: left;
+    top: 15%;
+    left: 5%;
+}
+
+.intro span{
+    font-weight: bold;
+}
+
+.rotateimg{
+    position:absolute;
+    box-shadow: 4px 3px 8px 1px #969696;
+    height: 100vh;
+    right: 0;
+    width: 50%;
+}
+

@@ -6,7 +6,7 @@ import {
   Route
 } from 'react-router-dom';
 import NavBar from './shared/NavBar'
-import Home from './pages/Home'
+import Home from './pages/home/Home'
 
 
 function App() {
