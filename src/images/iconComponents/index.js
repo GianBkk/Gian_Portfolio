@@ -1,0 +1,7 @@
+export { default as AddressBookSolid } from './AddressBookSolid'
+export { default as AddressCardSolid } from './AddressCardSolid'
+export { default as LaptopCodeSolid } from './LaptopCodeSolid'
+export { default as LaptopHouseSolid } from './LaptopHouseSolid'
+export { default as ArrowDown} from './ArrowDown'
+export { default as ReactIcon} from './ReactIcon'
+export { default as Bghome} from './Bghome'
