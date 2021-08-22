@@ -3,6 +3,7 @@
 .home{
     position: absolute;
     width: calc(100vw - 5rem);
+    height: auto;
     margin-left: 5rem;
     background-image: linear-gradient(to bottom right, #00ACE6, #00806C);
 }
@@ -21,13 +22,18 @@
 }
 
 .idcardcontainer{
-    max-height: 487px;
+    max-height: 300Spx;
     width: 80%;  
     margin-left: 10%;
     margin-top:2rem;
     
 }
 
+.rotateimg{
+    position:relative;
+    height: 100%;
+    width: 100%;
+}
 
 @media screen and (min-width:1200px){
     .home{
@@ -36,7 +42,7 @@
     }
     .rotateimg{
         position:relative;
-        height: 800px;
+        max-height: 800px;
         float: right;
         width: 60%;
     }
