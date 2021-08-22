@@ -1,0 +1,39 @@
+
+
+#frdcard{
+    transition: all ease 2s;
+    animation: movcard ease 30s infinite;
+    animation-delay: 20s;
+}
+#trdcard{
+    transition: all ease 2s;
+    animation: movcard ease 30s infinite;
+    animation-delay: 10s;
+}
+#stdcard{
+    transition: all ease 2s;
+    animation: movcard ease 30s infinite;
+    
+}
+
+
+
+
+@keyframes movcard {
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-200px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+
+
+
+
+
+

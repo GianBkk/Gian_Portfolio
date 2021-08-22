@@ -7,22 +7,25 @@ import {
 } from 'react-router-dom';
 import NavBar from './shared/NavBar'
 import Home from './pages/home/Home'
+import About from './pages/about/About'
 
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <NavBar/>
-        <Switch>
-          <Route path='/'><Home/></Route>
-          <Route path='/About'>{/* About Component */}</Route>
-          <Route path='/Projects'>{/* Projects Component */}</Route>
-          <Route path='/Contact'>{/* Contact Component */}</Route>
-        </Switch>
-         {/* Footer */}
-      </Router>
-    </div>
+    <Router>
+      <div className="App">
+        
+          <NavBar/>
+          <Switch>
+            <Route exact path='/'><Home/></Route>
+            <Route exact path='/about'><About /></Route>
+            <Route exact path='/projects'>{/* Projects Component */}</Route>
+            <Route exact path='/contact'>{/* Contact Component */}</Route>
+          </Switch>
+          {/* Footer */}
+        
+      </div>
+    </Router>
   );
 }
 

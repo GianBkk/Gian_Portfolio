@@ -21,16 +21,16 @@ function NavBar () {
 
 
     return (
-        <Router>
+        
             <Navbar>
-                <NavItem to="/Home" text="Home" icon={<LaptopHouseSolid/>} />
-                <NavItem to="/About" text="About" icon={<AddressCardSolid/>} />
-                <NavItem to="/Projects" text="Projects" icon={<LaptopCodeSolid/>} more={<ArrowDown height='1rem' width='auto' margin='0 auto'/>} >
+                <NavItem to="/" text="Home" icon={<LaptopHouseSolid/>} />
+                <NavItem to="/about" text="About" icon={<AddressCardSolid/>} />
+                <NavItem to="/projects" text="Projects" icon={<LaptopCodeSolid/>} more={<ArrowDown height='1rem' width='auto' margin='0 auto'/>} >
                     <DropdownMenuProjects to='/Projects/React' text="React"  icon={<ReactIcon/>}/>
                 </NavItem>
-                <NavItem to="/Contact" text="Contact Me" icon={<AddressBookSolid/>} />
+                <NavItem to="/contact" text="Contact Me" icon={<AddressBookSolid/>} />
             </Navbar>
-        </Router>
+        
     )
 }
 
